@@ -1,0 +1,20 @@
+{
+    "name": "yaro/socket",
+    "description": "",
+    "authors": [
+        {
+            "name": "Yaro",
+            "email": "12fcv4@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Yaro\\Socket": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
