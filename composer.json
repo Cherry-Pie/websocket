@@ -1,6 +1,7 @@
 {
     "name": "yaro/socket",
-    "description": "",
+    "description": "simple websocket implementation for Laravel 4",
+    "license": "MIT",
     "authors": [
         {
             "name": "Yaro",
