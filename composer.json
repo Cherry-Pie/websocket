@@ -1,0 +1,21 @@
+{
+    "name": "yaro/socket",
+    "description": "simple websocket implementation for Laravel 5",
+    "keywords": ["websocket", "laravel", "socket", "chat"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaro",
+            "email": "12fcv4@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaro\\Socket": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
