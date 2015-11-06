@@ -62,7 +62,7 @@ Sample handler class:
 ```php
 class ChatWebsocketDaemonHandler extends WebsocketDaemon
 {
-    protected function onOpen($connectionId, $info) 
+    protected function onOpen($connectionId, $info)
     {
     }
 
@@ -70,7 +70,8 @@ class ChatWebsocketDaemonHandler extends WebsocketDaemon
     {
     }
 
-    protected function onMessage($connectionId, $data, $type) {
+    protected function onMessage($connectionId, $data, $type)
+    {
         if (!strlen($data)) {
             return;
         }
