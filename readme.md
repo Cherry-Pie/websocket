@@ -3,6 +3,10 @@
 Fork of [morozovsk/websocket](https://github.com/morozovsk/websocket) for Laravel 4/5 integration.
 
 ### Installation
+```bash
+composer require yaro/socket
+```
+
 Add to config/app.php:
 ```php
 'providers' => array(
